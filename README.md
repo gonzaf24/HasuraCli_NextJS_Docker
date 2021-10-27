@@ -4,7 +4,7 @@
 
 https://github.com/gonzaf24/HasuraCli_NextJS_Docker.git
 
-<h3>unning the backend locally (Hasura) </h3>
+<h3>Running the backend locally (Hasura) </h3>
 
 $ cd backend </br>
 $ npm i </br>

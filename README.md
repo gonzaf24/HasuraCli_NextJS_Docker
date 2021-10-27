@@ -4,16 +4,9 @@
 
 https://github.com/gonzaf24/HasuraCli_NextJS_Docker.git
 
-<h3>Running the backend locally (Hasura) </h3>
+<h3>To run </h3>
 
-$ cd backend </br>
-$ npm i </br>
 $ docker-compose up -d </br>
-$ npm run build </br>
-
-<h3>Running the frontend locally (Next JS) </h3>
-
-$ cd frontend </br>
 $ npm i </br>
 $ npm run dev </br>
 

@@ -1,0 +1,17 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "<h3>Clone the repository </h3>",
+  "main": "index.js",
+  "scripts": {
+    "build-backend": "cd backend && npm run build",
+    "build-frontend": "cd frontend && npm i && npm run dev",
+    "dev": "npm run build-backend && npm run build-frontend"
+  },
+  "workspaces": [
+    "./backend",
+    "./frontend"
+  ],
+  "author": "Gonzalo Fraschini",
+  "license": "ISC"
+}

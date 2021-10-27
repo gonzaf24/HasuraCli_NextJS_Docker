@@ -1,0 +1,3 @@
+-- Could not auto-generate a down migration.
+-- Please write an appropriate down migration for the SQL below:
+-- CREATE TABLE public.long_tails(json_id int NOT NULL, tail text NOT NULL, PRIMARY KEY (json_id));

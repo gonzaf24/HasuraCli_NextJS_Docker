@@ -1,0 +1,132 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.margins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.floatingBarsG {
+  position: relative;
+  width: 50px;
+  height: 62px;
+}
+.blockG {
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 8px;
+  height: 19px;
+  border-radius: 7px 7px 0 0;
+  transform: scale(0.4);
+  animation-name: fadeG;
+  animation-duration: 0.48s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+#rotateG_01 {
+  left: 0;
+  top: 23px;
+  animation-delay: 0.18s;
+  transform: rotate(-90deg);
+}
+#rotateG_02 {
+  left: 6px;
+  top: 8px;
+  animation-delay: 0.24s;
+  transform: rotate(-45deg);
+}
+#rotateG_03 {
+  left: 21px;
+  top: 2px;
+  animation-delay: 0.3s;
+  transform: rotate(0deg);
+}
+#rotateG_04 {
+  right: 6px;
+  top: 8px;
+  animation-delay: 0.36s;
+  transform: rotate(45deg);
+}
+#rotateG_05 {
+  right: 0;
+  top: 23px;
+  animation-delay: 0.42000000000000004s;
+  transform: rotate(90deg);
+}
+#rotateG_06 {
+  right: 6px;
+  bottom: 6px;
+  animation-delay: 0.48s;
+  transform: rotate(135deg);
+}
+#rotateG_07 {
+  bottom: 0;
+  left: 21px;
+  animation-delay: 0.5399999999999999s;
+  transform: rotate(180deg);
+}
+#rotateG_08 {
+  left: 6px;
+  bottom: 6px;
+  animation-delay: 0.6s;
+  transform: rotate(-135deg);
+}
+@keyframes fadeG {
+  0% {
+    background-color: #000000;
+  }
+  100% {
+    background-color: #c4c4c4;
+  }
+}

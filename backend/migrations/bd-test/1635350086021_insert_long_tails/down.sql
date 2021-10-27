@@ -1,0 +1,6 @@
+-- Could not auto-generate a down migration.
+-- Please write an appropriate down migration for the SQL below:
+-- INSERT INTO public.long_tails (json_id, tail) VALUES
+--   (1, 'best-hello-ever'),
+--   (2, 'best-hello-world-ever'),
+--   (3, 'best-world-ever');

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "docker-compose up -d && hasura metadata apply && hasura migrate apply ", 
+    "build": "hasura metadata apply && hasura migrate apply ", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

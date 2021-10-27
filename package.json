@@ -1,8 +1,8 @@
 {
   "name": "challenge",
   "version": "1.0.0",
-  "description": "<h3>Clone the repository </h3>",
-  "main": "index.js",
+  "description": "<h3>Challenge with Hasura NextJs Docker Postgres</h3>",
+  "main": "",
   "scripts": {
     "build-backend": "cd backend && npm run build",
     "build-frontend": "cd frontend && npm i && npm run dev",
